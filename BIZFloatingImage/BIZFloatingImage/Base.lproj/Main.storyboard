@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sg1-SA-IM8">
+                                <rect key="frame" x="0.0" y="20" width="202" height="353"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aa8-qB-iLh">
+                                <rect key="frame" x="212" y="383" width="202" height="353"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jVU-Gv-3vQ">
+                                <rect key="frame" x="0.0" y="383" width="202" height="353"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TVr-Hb-zsb">
+                                <rect key="frame" x="212" y="20" width="202" height="353"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jVU-Gv-3vQ" firstAttribute="height" secondItem="sg1-SA-IM8" secondAttribute="height" id="7dP-z3-nkt"/>
+                            <constraint firstItem="jVU-Gv-3vQ" firstAttribute="top" secondItem="sg1-SA-IM8" secondAttribute="bottom" constant="10" id="CAB-eE-8EE"/>
+                            <constraint firstItem="sg1-SA-IM8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HDb-Av-5j2"/>
+                            <constraint firstItem="TVr-Hb-zsb" firstAttribute="width" secondItem="sg1-SA-IM8" secondAttribute="width" id="KHk-NL-cAN"/>
+                            <constraint firstItem="sg1-SA-IM8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Pa9-GE-49M"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aa8-qB-iLh" secondAttribute="bottom" id="RgY-Ou-a2M"/>
+                            <constraint firstItem="aa8-qB-iLh" firstAttribute="width" secondItem="sg1-SA-IM8" secondAttribute="width" id="UKu-Ea-9IT"/>
+                            <constraint firstAttribute="trailing" secondItem="aa8-qB-iLh" secondAttribute="trailing" id="V3O-V5-gIg"/>
+                            <constraint firstItem="aa8-qB-iLh" firstAttribute="height" secondItem="sg1-SA-IM8" secondAttribute="height" id="dOh-wq-7ay"/>
+                            <constraint firstItem="aa8-qB-iLh" firstAttribute="top" secondItem="TVr-Hb-zsb" secondAttribute="bottom" constant="10" id="gl0-6v-wmK"/>
+                            <constraint firstAttribute="trailing" secondItem="TVr-Hb-zsb" secondAttribute="trailing" id="hli-xg-Kdm"/>
+                            <constraint firstItem="aa8-qB-iLh" firstAttribute="leading" secondItem="jVU-Gv-3vQ" secondAttribute="trailing" constant="10" id="jOf-W2-yne"/>
+                            <constraint firstItem="jVU-Gv-3vQ" firstAttribute="width" secondItem="sg1-SA-IM8" secondAttribute="width" id="jSo-fA-aov"/>
+                            <constraint firstItem="TVr-Hb-zsb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kxj-iN-klE"/>
+                            <constraint firstItem="jVU-Gv-3vQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lQp-dY-Aly"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jVU-Gv-3vQ" secondAttribute="bottom" id="nRV-YL-9Rp"/>
+                            <constraint firstItem="TVr-Hb-zsb" firstAttribute="height" secondItem="sg1-SA-IM8" secondAttribute="height" id="vEe-tI-i4m"/>
+                            <constraint firstItem="TVr-Hb-zsb" firstAttribute="leading" secondItem="sg1-SA-IM8" secondAttribute="trailing" constant="10" id="zCB-fB-hHe"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imageView1" destination="sg1-SA-IM8" id="DPR-eC-mKy"/>
+                        <outlet property="imageView2" destination="TVr-Hb-zsb" id="Dlx-sC-wHd"/>
+                        <outlet property="imageView3" destination="jVU-Gv-3vQ" id="IcD-Hq-xTI"/>
+                        <outlet property="imageView4" destination="aa8-qB-iLh" id="XCl-m6-lut"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nyc.jpg" width="642" height="1840"/>
+    </resources>
+</document>
