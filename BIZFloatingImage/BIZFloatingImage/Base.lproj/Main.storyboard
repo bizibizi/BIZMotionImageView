@@ -34,7 +34,7 @@
                             </imageView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.93215546549999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="jVU-Gv-3vQ" firstAttribute="height" secondItem="sg1-SA-IM8" secondAttribute="height" id="7dP-z3-nkt"/>
                             <constraint firstItem="jVU-Gv-3vQ" firstAttribute="top" secondItem="sg1-SA-IM8" secondAttribute="bottom" constant="10" id="CAB-eE-8EE"/>
