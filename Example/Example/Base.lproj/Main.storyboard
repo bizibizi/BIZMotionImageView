@@ -16,19 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sg1-SA-IM8">
+                            <imageView userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="sg1-SA-IM8">
                                 <rect key="frame" x="0.0" y="20" width="202" height="353"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aa8-qB-iLh">
+                            <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aa8-qB-iLh">
                                 <rect key="frame" x="212" y="383" width="202" height="353"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jVU-Gv-3vQ">
+                            <imageView userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jVU-Gv-3vQ">
                                 <rect key="frame" x="0.0" y="383" width="202" height="353"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TVr-Hb-zsb">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TVr-Hb-zsb">
                                 <rect key="frame" x="212" y="20" width="202" height="353"/>
                                 <animations/>
                             </imageView>
@@ -70,6 +70,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="nyc.jpg" width="642" height="1840"/>
+        <image name="image1.jpeg" width="1600" height="1200"/>
+        <image name="image2.jpg" width="1152" height="864"/>
+        <image name="image3.jpg" width="800" height="500"/>
+        <image name="image4.jpg" width="800" height="500"/>
     </resources>
 </document>
