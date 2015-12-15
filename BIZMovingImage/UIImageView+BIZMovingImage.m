@@ -1,19 +1,19 @@
 //
-//  UIView+BIZFloatingImage.m
-//  BIZFloatingImage
+//  UIView+BIZMovingImage.m
+//  BIZMovingImage
 //
 //  Created by IgorBizi@mail.ru on 12/9/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
-#import "UIImageView+BIZFloatingImage.h"
+#import "UIImageView+BIZMovingImage.h"
 @import QuartzCore;
 
 
-@implementation UIImageView (BIZFloatingImage)
+@implementation UIImageView (BIZMovingImage)
 
 
-- (void)floatingImageToDirection:(kFloatingDirection)direction
+- (void)movingImageToDirection:(kMovingDirection)direction
 {
     self.layer.masksToBounds = YES;
 
@@ -32,28 +32,28 @@
 
     switch (direction)
     {
-        case kFloatingDirectionDown:
+        case kMovingDirectionDown:
         {
             background.frame = CGRectMake(0, 0, viewSize.width, image.size.height + viewSize.height);
             startPoint = CGPointZero;
             endPoint = CGPointMake(0, -image.size.height);
         } break;
            
-        case kFloatingDirectionUp:
+        case kMovingDirectionUp:
         {
             background.frame = CGRectMake(0, 0, viewSize.width, image.size.height + viewSize.height);
             startPoint = CGPointMake(0, -image.size.height);
             endPoint = CGPointZero;
         } break;
             
-        case kFloatingDirectionRight:
+        case kMovingDirectionRight:
         {
             background.frame = CGRectMake(0, 0, viewSize.width + image.size.width, viewSize.height);
             endPoint = CGPointMake(-image.size.width, 0);
             startPoint = CGPointZero;
         } break;
             
-        case kFloatingDirectionLeft:
+        case kMovingDirectionLeft:
         {
             background.frame = CGRectMake(0, 0, viewSize.width + image.size.width, viewSize.height);
             startPoint = CGPointMake(-image.size.width, 0);

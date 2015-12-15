@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  BIZFloatingImage
+//  Example
 //
-//  Created by IgorBizi@mail.ru on 12/9/15.
+//  Created by IgorBizi@mail.ru on 12/15/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "UIImageView+BIZFloatingImage.h"
+#import "UIImageView+BIZMovingImage.h"
 
 
 @interface ViewController ()
@@ -25,12 +25,11 @@
 {
     [super viewDidLoad];
     
-    [self.imageView1 floatingImageToDirection:kFloatingDirectionUp];
-    [self.imageView2 floatingImageToDirection:kFloatingDirectionRight];
-    [self.imageView3 floatingImageToDirection:kFloatingDirectionDown];
-    [self.imageView4 floatingImageToDirection:kFloatingDirectionLeft];
+    [self.imageView1 movingImageToDirection:kMovingDirectionUp];
+    [self.imageView2 movingImageToDirection:kMovingDirectionRight];
+    [self.imageView3 movingImageToDirection:kMovingDirectionDown];
+    [self.imageView4 movingImageToDirection:kMovingDirectionLeft];
 }
-
 
 
 @end

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7ECDDF5A1C184A9D00EC8562"
-               BuildableName = "BIZFloatingImage.app"
-               BlueprintName = "BIZFloatingImage"
-               ReferencedContainer = "container:BIZFloatingImage.xcodeproj">
+               BlueprintIdentifier = "7E3D296F1C2047FA0089BDEE"
+               BuildableName = "Example.app"
+               BlueprintName = "Example"
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7ECDDF5A1C184A9D00EC8562"
-            BuildableName = "BIZFloatingImage.app"
-            BlueprintName = "BIZFloatingImage"
-            ReferencedContainer = "container:BIZFloatingImage.xcodeproj">
+            BlueprintIdentifier = "7E3D296F1C2047FA0089BDEE"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7ECDDF5A1C184A9D00EC8562"
-            BuildableName = "BIZFloatingImage.app"
-            BlueprintName = "BIZFloatingImage"
-            ReferencedContainer = "container:BIZFloatingImage.xcodeproj">
+            BlueprintIdentifier = "7E3D296F1C2047FA0089BDEE"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7ECDDF5A1C184A9D00EC8562"
-            BuildableName = "BIZFloatingImage.app"
-            BlueprintName = "BIZFloatingImage"
-            ReferencedContainer = "container:BIZFloatingImage.xcodeproj">
+            BlueprintIdentifier = "7E3D296F1C2047FA0089BDEE"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BIZFloatingImage.xcscheme</key>
+		<key>Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7ECDDF5A1C184A9D00EC8562</key>
+		<key>7E3D296F1C2047FA0089BDEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
