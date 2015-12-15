@@ -25,10 +25,10 @@
 {
     [super viewDidLoad];
     
-    [self.imageView1 movingImageToDirection:kMovingDirectionUp];
-    [self.imageView2 movingImageToDirection:kMovingDirectionRight];
-    [self.imageView3 movingImageToDirection:kMovingDirectionDown];
-    [self.imageView4 movingImageToDirection:kMovingDirectionLeft];
+    [self.imageView1 motionImageToDirection:kMotionDirectionUp];
+    [self.imageView2 motionImageToDirection:kMotionDirectionRight];
+    [self.imageView3 motionImageToDirection:kMotionDirectionDown];
+    [self.imageView4 motionImageToDirection:kMotionDirectionLeft];
 }
 
 

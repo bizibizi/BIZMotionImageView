@@ -1,6 +1,6 @@
 //
 //  UIImageView+BIZMotionImageView.m
-//  BIZMovingImage
+//  BIZMotionImageView
 //
 //  Created by IgorBizi@mail.ru on 12/9/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
@@ -13,7 +13,7 @@
 @implementation UIImageView (BIZMotionImageView)
 
 
-- (void)movingImageToDirection:(kMovingDirection)direction
+- (void)motionImageToDirection:(kMotionDirection)direction
 {
     self.layer.masksToBounds = YES;
 
@@ -32,28 +32,28 @@
 
     switch (direction)
     {
-        case kMovingDirectionDown:
+        case kMotionDirectionDown:
         {
             background.frame = CGRectMake(0, 0, viewSize.width, image.size.height + viewSize.height);
             startPoint = CGPointZero;
             endPoint = CGPointMake(0, -image.size.height);
         } break;
            
-        case kMovingDirectionUp:
+        case kMotionDirectionUp:
         {
             background.frame = CGRectMake(0, 0, viewSize.width, image.size.height + viewSize.height);
             startPoint = CGPointMake(0, -image.size.height);
             endPoint = CGPointZero;
         } break;
             
-        case kMovingDirectionRight:
+        case kMotionDirectionRight:
         {
             background.frame = CGRectMake(0, 0, viewSize.width + image.size.width, viewSize.height);
             endPoint = CGPointMake(-image.size.width, 0);
             startPoint = CGPointZero;
         } break;
             
-        case kMovingDirectionLeft:
+        case kMotionDirectionLeft:
         {
             background.frame = CGRectMake(0, 0, viewSize.width + image.size.width, viewSize.height);
             startPoint = CGPointMake(-image.size.width, 0);
