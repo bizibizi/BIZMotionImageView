@@ -10,10 +10,13 @@
 @import QuartzCore;
 
 
+static NSString * kMotionKey = @"position";
+
+
 @implementation UIImageView (BIZMotionImageView)
 
 
-- (void)motionImageToDirection:(kMotionDirection)direction
+- (void)addMotionToDirection:(kMotionDirection)direction
 {
     self.layer.masksToBounds = YES;
 
@@ -64,13 +67,18 @@
             break;
     }
     
-    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:kMotionKey];
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
     animation.fromValue = [NSValue valueWithCGPoint:endPoint];
     animation.toValue = [NSValue valueWithCGPoint:startPoint];
     animation.repeatCount = HUGE_VALF;
     animation.duration = 60;
-    [background addAnimation:animation forKey:@"position"];
+    [background addAnimation:animation forKey:kMotionKey];
+}
+
+- (void)removeMotion
+{
+    [self.layer removeAnimationForKey:kMotionKey];
 }
 
 @end

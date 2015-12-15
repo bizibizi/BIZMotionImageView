@@ -18,5 +18,6 @@ typedef enum {
 
 
 @interface UIImageView (BIZMotionImageView)
-- (void)motionImageToDirection:(kMotionDirection)direction;
+- (void)addMotionToDirection:(kMotionDirection)direction;
+- (void)removeMotion;
 @end
