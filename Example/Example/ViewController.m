@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIImageView+BIZMovingImage.h"
+#import "UIImageView+BIZMotionImageView.h"
 
 
 @interface ViewController ()

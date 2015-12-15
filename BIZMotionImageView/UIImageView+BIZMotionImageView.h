@@ -1,5 +1,5 @@
 //
-//  UIView+BIZMovingImage.h
+//  UIImageView+BIZMotionImageView.h
 //  BIZMovingImage
 //
 //  Created by IgorBizi@mail.ru on 12/9/15.
@@ -17,6 +17,6 @@ typedef enum {
 } kMovingDirection;
 
 
-@interface UIImageView (BIZMovingImage)
+@interface UIImageView (BIZMotionImageView)
 - (void)movingImageToDirection:(kMovingDirection)direction;
 @end
