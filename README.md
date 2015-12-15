@@ -10,7 +10,10 @@ BIZMotionImageView is a Category that adds motion capabilities to UIImageView.
 # Usage
 
 ```objective-c
-[self.imageView1 motionImageToDirection:kMotionDirectionUp];
+//add motion
+[self.imageView addMotionToDirection:kMotionDirectionUp];
+//remove motion
+[self.imageView removeMotion];
 ```
 
 # Installation
