@@ -7,6 +7,11 @@ Wait for gif presentation, it's loading...
 
 BIZMotionImageView is a Category that adds motion capabilities to UIImageView.
 
+# Installation
+
+ - Copy BIZMotionImageView folder to your project 
+ - ```#import "UIImageView+BIZMotionImageView.h"``` 
+
 # Usage
 
 ```objective-c
@@ -16,7 +21,3 @@ BIZMotionImageView is a Category that adds motion capabilities to UIImageView.
 [self.imageView removeMotion];
 ```
 
-# Installation
-
- - Copy BIZMotionImageView folder to your project 
- - ```#import "UIImageView+BIZMotionImageView.h"``` 
