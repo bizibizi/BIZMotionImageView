@@ -25,9 +25,16 @@ BIZMotionImageView is a Category that adds motion capabilities to UIImageView.
 ```
 
 
+# Contact
+
+Igor Bizi
+- https://www.linkedin.com/in/igorbizi
+- igorbizi@mail.ru
+
+
 # License
  
- The MIT License (MIT)
+The MIT License (MIT)
 
 Copyright (c) 2015 Igor Bizi
 
