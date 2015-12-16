@@ -10,6 +10,7 @@ BIZMotionImageView is a Category that adds motion capabilities to UIImageView.
 
 # Installation
 
+### Manually
  - Copy BIZMotionImageView folder to your project 
  - ```#import "UIImageView+BIZMotionImageView.h"``` 
 
